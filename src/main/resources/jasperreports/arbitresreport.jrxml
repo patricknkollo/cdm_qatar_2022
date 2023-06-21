@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="267ec3ef-5d9a-4eed-9c19-4377babb4db0">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString language="SQL">
+		<![CDATA[select * from orders]]>
+	</queryString>
+	<field name="arbitreid" class="java.lang.Long"/>
+	<field name="nom" class="java.lang.String"/>
+	<field name="prenom" class="java.lang.String"/>
+	<field name="personid" class="java.lang.Long"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="109" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="553" height="108" backcolor="#8C2C2A" uuid="9948421b-0611-4e3e-879b-0fb929b0ec4a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<image>
+				<reportElement x="200" y="0" width="169" height="107" uuid="bc894252-3708-40e7-99b9-1cf63890380e"/>
+				<imageExpression><![CDATA["jasperreports/referees.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="131" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="50" width="160" height="50" uuid="a36a32fe-7b2c-4d86-8932-d24006f6a4fb"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[List of referees in the world cup Qatar2022]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="11" width="130" height="38" uuid="d1bb0e89-7403-443c-8b4b-e202df2302cc"/>
+				<textElement>
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Qatar CDM 2022]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="390" y="70" width="100" height="30" uuid="edc5d976-a4d9-41a3-a99a-130e3ecf1989"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="101" width="50" height="30" uuid="8791515d-00f9-4349-96a4-f17d448ed294">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[arbitre_ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="101" width="150" height="30" uuid="bc1f5cdf-a56a-4dbb-bcd7-1080d7c8960f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="101" width="150" height="30" uuid="28164e3d-96c5-488e-afb4-a9e87890fc96">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Vorname]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="101" width="34" height="30" uuid="2e34f32c-bd0b-4c68-9cd0-58740b846566"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[staat_ID]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="31" splitType="Stretch">
+			<textField>
+				<reportElement x="10" y="0" width="50" height="30" uuid="5b40bfb7-decd-42b2-b297-934594a205fc"/>
+				<textFieldExpression><![CDATA[$F{arbitreid}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="0" width="150" height="30" uuid="361e6603-c69a-4dd7-afb4-408b4f2e176d"/>
+				<textFieldExpression><![CDATA[$F{nom}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="0" width="150" height="30" uuid="f4890b76-d351-4a0a-bcfd-abfc27a14540"/>
+				<textFieldExpression><![CDATA[$F{prenom}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="0" width="34" height="30" uuid="2fc59401-bc5e-4fdf-9499-b16a6c94c605"/>
+				<textFieldExpression><![CDATA[$F{personid}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

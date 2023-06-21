@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="matchs_report" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="31f5718a-c2d2-4d9c-858a-31dd24ed555f">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<subDataset name="Dataset1" uuid="b49d3704-20f5-4456-895a-42e1d1ed64c8">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="matchid" class="java.lang.Long"/>
+	<field name="pays1id" class="java.lang.Long"/>
+	<field name="pays2id" class="java.lang.Long"/>
+	<field name="nom1" class="java.lang.String"/>
+	<field name="nom2" class="java.lang.String"/>
+	<field name="scorepays1" class="java.lang.Integer"/>
+	<field name="scorepays2" class="java.lang.Integer"/>
+	<field name="lieu" class="java.lang.String"/>
+	<field name="date" class="java.time.LocalDate"/>
+	<field name="arbitreid" class="java.lang.Long"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="170" y="20" width="180" height="50" uuid="0bbbfd76-bc16-45c9-a82d-2f196816bad0"/>
+				<textElement textAlignment="Center">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Matchs Reports during QATAR 2022]]></text>
+			</staticText>
+			<image>
+				<reportElement x="511" y="10" width="50" height="50" uuid="f934803e-a4f9-4a47-a6ae-7da4f990e7ab"/>
+				<imageExpression><![CDATA["jasperreports/worldcuptrophet.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="0" y="10" width="50" height="50" uuid="7ca27610-ab57-42c6-8e45-cf6153fab457"/>
+				<imageExpression><![CDATA["jasperreports/worldcuptrophet.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="187" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="157" width="40" height="30" uuid="1872e7b2-df69-4282-9143-8be90867f2cc">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[matchid]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="157" width="40" height="30" uuid="4bf7410d-1694-44b5-8565-be251ffda2ba"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[pays1id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="157" width="40" height="30" uuid="c919054c-92dd-4f4f-8741-76244bc643d9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[pays2id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="157" width="100" height="30" uuid="b2114202-73ca-4278-a304-2289a3fdff3e"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[pays1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="157" width="41" height="30" uuid="5465c38d-724e-4722-8803-21703e11702f"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[score1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="261" y="157" width="40" height="30" uuid="643fa1f1-831c-479c-8192-e3b6c68c4819"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[score2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="301" y="157" width="100" height="30" uuid="8bfc9f4c-d914-477c-a5d2-ce309166e642"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[pays2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="401" y="157" width="85" height="30" uuid="dcd5c429-0fcd-44f3-b536-9472fe681649"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[lieu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="486" y="157" width="55" height="30" uuid="aa23d526-31d3-477c-b4fb-6ad33900b17a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="541" y="157" width="20" height="30" uuid="c3741d2a-26e9-4032-81ca-33aab0aa3dbc"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[arbid]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="0" width="40" height="20" uuid="2761b9ae-e1cb-4b34-8fcf-85c7099a26e0"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[legend:]]></text>
+			</staticText>
+			<frame>
+				<reportElement x="220" y="0" width="341" height="110" uuid="7dad5b3e-f045-4d42-905e-ee45491a8ed8"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<staticText>
+					<reportElement x="10" y="0" width="50" height="30" uuid="290c0061-e7ff-48b7-8b81-4081bacb0883"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[arbid:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="192" y="72" width="50" height="28" uuid="08aa5791-4630-4ced-9564-574ff1b6b833"/>
+					<text><![CDATA[matchid:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="10" y="70" width="50" height="30" uuid="58464766-7f82-4c88-8e36-e7501a2d9060"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[pays2id:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="192" y="37" width="50" height="30" uuid="42c457ca-a822-40fc-b13a-03c413eaf658"/>
+					<text><![CDATA[score1:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="193" y="2" width="50" height="30" uuid="135ed7cb-e1b5-4bda-97f0-9ab7e518deee"/>
+					<text><![CDATA[score1:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="10" y="35" width="50" height="30" uuid="93f944ba-b586-4f0a-a82b-c14cb648bd64"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[pays1id:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="61" y="1" width="100" height="30" uuid="df5b8b82-d7a7-4a33-b5cd-ff4b32b8d876"/>
+					<text><![CDATA[ID of the referee of the match]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="62" y="36" width="98" height="30" uuid="f2e783f3-9bdb-49b4-b783-4cdcc4fdfadc"/>
+					<text><![CDATA[id of the country 1]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="62" y="71" width="98" height="30" uuid="e4e5ebef-0063-4d84-ba5a-99a9a508c4f6"/>
+					<text><![CDATA[id of the country 2]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="244" y="1" width="96" height="30" uuid="bdb8f53d-3875-40b0-9686-a5e4c2a76c5a"/>
+					<text><![CDATA[the number of the goals of the country 1 during the game]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="244" y="38" width="96" height="30" uuid="328e706b-7e31-4d59-b040-e0f145b41dae"/>
+					<text><![CDATA[the number of the goals of the country 2 during the game]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="244" y="71" width="96" height="30" uuid="0708f9f3-f8e2-4a10-b030-c8b66aabb2cb"/>
+					<text><![CDATA[id of the game in the database]]></text>
+				</staticText>
+			</frame>
+			<staticText>
+				<reportElement x="0" y="32" width="180" height="88" uuid="06f22c0a-9a03-4f2f-8a8b-b4a6c190032d">
+					<property name="com.jaspersoft.studio.unit.spacingBefore" value="px"/>
+					<property name="com.jaspersoft.studio.unit.spacingAfter" value="px"/>
+					<property name="com.jaspersoft.studio.unit.rightIndent" value="px"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.25" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified">
+					<paragraph firstLineIndent="2" leftIndent="1" rightIndent="1" spacingBefore="1" spacingAfter="1"/>
+				</textElement>
+				<text><![CDATA[The 2022 FIFA World Cup was the 22nd edition of the FIFA World Cup. It took place in Qatar from 20 November to 18 December 2022, making it the first World Cup held in the Arab world and Muslim world]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="80" y="0" width="40" height="30" uuid="2d5dca58-eac0-4693-91b1-c2790ce67f4e"/>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{pays2id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="120" y="0" width="100" height="30" uuid="314338b4-3a8b-4ff1-80a2-7748ba3ce4db"/>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{nom1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="220" y="0" width="41" height="30" uuid="b7b97970-6916-4d0e-83c1-14494caffbed"/>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{scorepays1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="0" width="40" height="30" uuid="822cb510-0605-4f80-910e-6722c8183a1f"/>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{scorepays2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="301" y="0" width="100" height="30" uuid="0240af68-121c-4d44-b8fd-0bc0d42ebf2d"/>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{nom2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="401" y="0" width="85" height="30" uuid="22216cdd-148e-4ed1-bc05-18b8fa4a8139"/>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{lieu}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="486" y="0" width="55" height="30" uuid="2c618f49-745d-4cb0-be23-0717a727b3b4"/>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="541" y="0" width="20" height="30" uuid="859b54ee-f2a4-4b09-af1c-101daba9cc62"/>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{arbitreid}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="0" width="40" height="30" uuid="a4aca679-07f7-4c6f-99cf-0322db05ab22"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{matchid}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="0" width="40" height="30" uuid="40cff71f-8c0b-46d4-88dc-3174ec2744b4"/>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{pays1id}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="42" splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>
